@@ -13,6 +13,7 @@ class TestController extends AbstractController
      */
     public function index(): Response
     {
+        echo "test1";
         return $this->render('test/index.html.twig', [
             'controller_name' => 'TestController',
         ]);
