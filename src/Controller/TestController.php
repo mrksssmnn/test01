@@ -15,6 +15,8 @@ class TestController extends AbstractController
     {
         echo "test2";
         echo "test2indev"
+        echo "commit->dev"
+        echo "commit->main"
         return $this->render('test/index.html.twig', [
             'controller_name' => 'TestController',
         ]);
